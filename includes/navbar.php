@@ -40,6 +40,9 @@
                         <a class="nav-link" href="tickets.php"><i class="fas fa-user"></i> Les Ventes</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="ticketsvendu.php"><i class="fas fa-user"></i> ticket payé</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
                     </li>
                     <?php endif; ?>
