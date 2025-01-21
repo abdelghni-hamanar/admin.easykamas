@@ -1,0 +1,200 @@
+/* Navbar Custom Styles */
+.navbar {
+    background-color: #ffc107; /* Yellow background */
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    height: 40px; /* Set logo height */
+}
+
+.navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000; /* Black text for brand name */
+}
+
+.navbar-brand small {
+    font-size: 0.9rem;
+    color: #6c757d; /* Muted text for tagline */
+}
+
+.navbar-nav .nav-link {
+    color: #000; /* Black text for links */
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff; /* White text on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+.navbar-nav .nav-link.active {
+    color: #000000; /* White text for active link */
+    background-color: #ffffff; /* Black background for active link */
+}
+
+.navbar-nav .nav-item i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+/* Mobile view adjustments */
+@media (max-width: 992px) {
+    .navbar-brand span {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 8px 10px;
+    }
+}
+
+
+
+
+
+
+
+/* Main Section Styling */
+section {
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dee2e6; /* Light border */
+}
+
+.table thead th {
+    background-color: #ffc107; /* Yellow header background */
+    color: #000; /* Black text */
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Light background for even rows */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+/* Badge Styling */
+.badge {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.badge.bg-success {
+    background-color: #28a745; /* Green for "Disponible" */
+}
+
+.badge.bg-danger {
+    background-color: #dc3545; /* Red for "Indisponible" */
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:disabled {
+    background-color: #d6d6d6;
+    border-color: #d6d6d6;
+    color: #999;
+}
+
+
+
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer .social-icons a {
+    font-size: 16px;
+    margin-right: 15px;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .social-icons a:hover {
+    color: #ffc107; /* Hover color for social icons */
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #ffc107; /* Hover color for links */
+}
+
+footer .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    font-weight: bold;
+    color: #343a40;
+    transition: background-color 0.3s ease-in-out;
+}
+
+footer .btn-warning:hover {
+    background-color: #e0a800; /* Darker yellow for hover */
+}
+
+
